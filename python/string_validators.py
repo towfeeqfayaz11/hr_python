@@ -50,3 +50,8 @@ for test in ('isalnum','isalpha','isdigit','islower','isupper'):
 # Reason: Remember that class methods are just functions with an object as the first parameter - true in any OO language but directly visible and usable from Python.
 for method in [str.isalnum, str.isalpha, str.isdigit, str.islower, str.isupper]:
     print(any(method(c) for c in s))
+
+
+
+
+    

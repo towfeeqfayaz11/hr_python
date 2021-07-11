@@ -45,7 +45,7 @@ def count_substring(string, sub_string):
 
 # method 3:
 def count_substring(string, sub_string):
-    return len([1 for i in range(len(string) - len(sub_string)) if s[i:i+len(substring)] == b])
+    return len([1 for i in range(len(string) - len(sub_string)) if string[i:i+len(sub_string)] == sub_string])
 
 
 if __name__ == '__main__':
